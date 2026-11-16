@@ -1,0 +1,18 @@
+<!DOCTYPE css>
+<html>
+<body>
+<style>
+h1   {color: rgb(116, 19, 7); padding: 20px; font-family: 'Sitka Heading';font-weight: bold; text-align: center; }
+body {background-color: black;}
+h2   {color: rgb(173, 168, 167); font-family: 'Sitka Heading';font-weight: bold;}
+img {
+  padding-left: 275px;
+}
+p {color : rgb(255, 255, 255)}
+table, th, td {
+  color: aliceblue;
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+h3   {color: rgb(155, 155, 155); padding: 20px; text-align: center; }
+</style>
