@@ -17,4 +17,4 @@ A Black Clover anime and manga fan website showcasing iconic battles, a popular 
 - **Google Gemini:** Used for planning the multi-page layout, generating HTML/CSS/JavaScript code for new pages, and maintaining consistent styling across the website.
 
 ## Live Website
-- **Live Link:** https://[your-github-username].github.io/[your-repository-name]/
+- **Live Link:** https://HaidKhan.github.io/main/
