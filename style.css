@@ -1,18 +1,155 @@
-<!DOCTYPE css>
-<html>
-<body>
-<style>
-h1   {color: rgb(116, 19, 7); padding: 20px; font-family: 'Sitka Heading';font-weight: bold; text-align: center; }
-body {background-color: black;}
-h2   {color: rgb(173, 168, 167); font-family: 'Sitka Heading';font-weight: bold;}
-img {
-  padding-left: 275px;
+/* Global Theme - The 5 Leaf Clover */
+body {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 20px;
 }
-p {color : rgb(255, 255, 255)}
+
+/* Navigation Bar */
+nav {
+  background-color: #111111;
+  border-bottom: 2px solid rgb(116, 19, 7);
+  padding: 15px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: 'Sitka Heading', serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 18px;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: rgb(116, 19, 7);
+  color: yellow;
+}
+
+/* Headings */
+h1 {
+  color: rgb(116, 19, 7);
+  padding: 20px;
+  font-family: 'Sitka Heading', serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(173, 168, 167);
+  font-family: 'Sitka Heading', serif;
+  font-weight: bold;
+}
+
+h3 {
+  color: rgb(155, 155, 155);
+  padding: 10px 20px;
+  text-align: center;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  line-height: 1.6;
+}
+
+/* Centered Logo & Images */
+.logo-container {
+  text-align: center;
+  margin: 10px 0 25px 0;
+}
+
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
 table, th, td {
   color: aliceblue;
   border: 1px solid rgb(255, 255, 255);
-  border-collapse: collapse;
 }
-h3   {color: rgb(155, 155, 155); padding: 20px; text-align: center; }
-</style>
+
+th {
+  color: yellow;
+  padding: 12px;
+  background-color: #1a0502;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+/* Cards / Sections for multi-page layout */
+.content-box {
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.card {
+  background-color: #111111;
+  border: 1px solid rgb(116, 19, 7);
+  border-radius: 6px;
+  padding: 18px;
+  width: 260px;
+}
+
+.card h2 {
+  margin-top: 0;
+  border-bottom: 1px solid #333;
+  padding-bottom: 8px;
+}
+
+/* Buttons */
+.btn-container {
+  text-align: center;
+  margin: 25px 0;
+}
+
+button {
+  background-color: rgb(116, 19, 7);
+  color: white;
+  border: 1px solid yellow;
+  padding: 10px 20px;
+  font-family: 'Sitka Heading', serif;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #9e1a0a;
+  color: yellow;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
+  color: rgb(155, 155, 155);
+  font-size: 14px;
+}
